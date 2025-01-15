@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './typography.css';
+
+@layer base {
+  html {
+    font-size: 16px;
+  }
+}

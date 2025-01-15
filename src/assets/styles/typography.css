@@ -1,0 +1,13 @@
+@tailwind utilities;
+
+@layer utilities {
+  .text-title {
+    @apply text-[2.5rem] leading-[3.25rem] font-bold;
+  }
+  .text-content {
+    @apply text-[0.875rem] leading-[1.25rem] font-normal;
+  }
+  .text-helper {
+    @apply text-[0.75rem] leading-[1rem] font-normal;
+  }
+}
